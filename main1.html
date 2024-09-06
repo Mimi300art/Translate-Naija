@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Translate Naija</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 class="heading">Translate Naija</h1>
+    <div class="language-select">
+        <label for="language">Select a Language:</label>
+        <select id="language">
+            <option value="hausa">Hausa</option>
+            <option value="igbo">Igbo</option>
+            <option value="yoruba">Yoruba</option>
+        </select>
+    </div>
+    <div class="chat-section">
+        <div class="chat-window" id="chat-history">
+            <!-- Initial model message -->
+            <div class="model-message message">
+                <p>How can I help you today? 😊</p>
+            </div>
+        </div>
+        <div class="input-section">
+            <textarea id="user-message" placeholder="Enter your message..."></textarea>
+            <button id="submit-btn">Submit</button>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
